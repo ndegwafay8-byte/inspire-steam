@@ -1,0 +1,62 @@
+# Faith Nyambura
+#2\4\2026
+# string formating
+
+# get string length
+sentence = "i love eating" 
+
+string_length = len(sentence)
+
+print(f"the length  is:{string_length}")
+
+# splitting a string
+sentence_2 = "mathematics physics"
+split = sentence_2.split(" ")
+
+print(f"the first subject is:",split[0])
+
+
+# make everthing CAPS
+code = "ub21uddsfing"
+
+capitalized = code.upper()
+
+print(f"New mpesa code",capitalized)
+
+#make everithing small
+
+Code ="UB21UDDSFING"
+
+smallerized = code.lower()
+
+print(f"New mpesa code",smallerized)
+
+# Replacing characters in a string
+
+balance = "100kes"
+amount_added = "58kes"
+
+cleaned_balance = balance.replace("kes","")
+
+print("cleaned balance:", cleaned_balance)
+
+cleaned_amount_added = amount_added.replace("kes","")
+
+print("cleaned amount added:",cleaned_amount_added)
+
+# Faith answer
+new_balance = int(cleaned_balance) + int(cleaned_amount_added)
+
+print(f"the new balance is:", new_balance)
+
+#initial balance
+add = "kes"
+final_balance = str(new_balance) + str(add)
+
+print(f"confirmed you have received {amount_added} from phillip.Your new mpesa balance is{final_balance}")
+
+
+
+
+
+
