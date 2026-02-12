@@ -1,0 +1,8 @@
+# name : ndegwafay
+# date : 11/02/2026
+
+# program to get use input
+
+name = input ("what is your name")
+
+print(name)
