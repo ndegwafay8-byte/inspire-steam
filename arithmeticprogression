@@ -1,0 +1,14 @@
+#Name : Faith Nyambura
+#Date :13/02/2026
+# program to calculate arithmetic progression
+
+# calculating nth term
+
+a = int(input("enter the first number:"))
+n = int(input("Enter the number of terms:"))
+d = int(input("Enter the common difference"))
+
+nth_term = a + (n - 1) * d
+sn = (n /2) * (2*a + ((n-1)*d))
+print(f"the nth term is:{nth_term}")
+print(f"the sum of the term is:{sn}")          
