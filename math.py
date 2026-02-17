@@ -1,4 +1,4 @@
-# Name : faith
+# Name : Faith Nyambura
 # date 2/22/2025
 # program to do mathmatical operation
 import math

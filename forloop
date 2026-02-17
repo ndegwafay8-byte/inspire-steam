@@ -1,0 +1,12 @@
+#Name Faith Nyambura
+# Date 15/02/2025
+# program to show for ioops in python
+import math
+
+# using range(-180, 131, 10) because the stop value is for angle in range(-180, 131, 10):
+rad = math . radians(angle)
+s = math . sin(rad)
+c = math . cos(rad)
+t = math . tan(rad)
+
+print(f"angle:{angle:4} | sin: {s:7 .4f} | cos: {c})
