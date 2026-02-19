@@ -1,0 +1,34 @@
+#Name : Faith Nyambura
+# Date : 19/02/2026
+# class (object) in python
+class Human:
+    # first we define the attribute of a human being
+    type = "mammal"
+    legs = 2
+    brain = True
+    warm_blooded = True
+    city = "Nairobi"
+
+    # we then create a construction for the class/object
+    # the construction will be used to create OF this
+    def __init__(self, name,age):
+        self.human_name = name
+        self.human_age = age
+
+    def tell_story(self):
+        print(f"Hello is me (self.human_name) here is a story")
+        print("there was once me in aplace")
+amani = Human("Amani", 17)
+triza = Human("Triza", 17)
+
+# let the humans created do things
+amani.tell_story()
+print("Amani's age is", amani.human_age)
+
+# Modify one of the objects, without modifying other object
+triza.city = "Kiambu"
+
+print("triza's location: ", triza.city)
+print("amani's location: ", amani.city)
+
+ 
