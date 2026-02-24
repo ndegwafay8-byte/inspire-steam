@@ -1,6 +1,4 @@
-# faith nyambura
-# date
-#program to show student module in 
+ 
 
 name = "faith nyambura"
 

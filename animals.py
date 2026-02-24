@@ -13,7 +13,7 @@ class Animals():
     def eat(self,food):
         print("The animal eats{food}")
 
-    Class Animals(dog):
+Class dog(Animal):
     def __init__(self,species,weight,food)
         super()._init__(species,weight,food)
         self.weight = weight
